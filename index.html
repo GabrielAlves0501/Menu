@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+        <div id="underline"></div>
+    </header>
+    <main>
+        <section class="selecao">
+            <button onclick="selecionarBotao(this)" class="filtros" id="all">All</button>
+            <button onclick="selecionarBotao(this)" class="filtros" id="breakfast">Breakfast</button>
+            <button onclick="selecionarBotao(this)" class="filtros" id="lunch">Lunch</button>
+            <button onclick="selecionarBotao(this)" class="filtros" id="shakes">Shakes</button>
+            <button onclick="selecionarBotao(this)" class="filtros" id="dinner">Dinner</button>
+        </section>
+        <section class="cardapio">
+            <div class="itens" id="breakfast1">
+                <img src="panquecas.png" alt="" class="prato">
+                <div class="descricao">
+                    <div class="tituloPreco">
+                        <h6>Panquecas Doces</h6>
+                        <p>R$15.99</p>
+                    </div>
+                    <hr>
+                    <p class="descricaoPrato">Massa frita em pouco óleo sobre uma 
+                    chapa quente, feita com ovos, farinha e leite. Com mel e frutas
+                    como morangos e amoras acompanhada de chantilly.</p>
+                </div>
+            </div>
+            <div class="itens" id="lunch1">
+                <img src="burguer.png" alt="" class="prato">
+                <div class="descricao">
+                    <div class="tituloPreco">
+                        <h6>X-Picanha com Fritas</h6>
+                        <p>R$15.99</p>
+                    </div>
+                    <hr>
+                    <p class="descricaoPrato">Pão de gergelim com 200g
+                    de picanha grelhada, cheddar, cebola agridoce e molho especial
+                    acompanhado de uma porção de batatas canoa.</p>
+                </div>
+            </div>
+            <div class="itens" id="breakfast2">
+                <img src="eggs.png" alt="" class="prato">
+                <div class="descricao">
+                    <div class="tituloPreco">
+                        <h6>Café a moda da casa</h6>
+                        <p>$8.99</p>
+                    </div>
+                    <hr>
+                    <p class="descricaoPrato">Café expresso, 2 fatias de pão
+                    integral e ovos fritos.
+                    </p>
+                </div>
+            </div>
+            <div class="itens" id="shakes1">
+                <img src="milkshake.png" alt="" class="prato">
+                <div class="descricao">
+                    <div class="tituloPreco">
+                        <h6>Godzilla Milkshake</h6>
+                        <p>$6.99</p>
+                    </div>
+                    <hr>
+                    <p class="descricaoPrato">Milkshake de morango com chantilly, jujubas,
+                    rosquinha com cobertura e morando e granulado.</p>
+                </div>
+            </div>
+            <div class="itens" id="dinner1">
+                <img src="frango.png" alt="" class="prato">
+                <div class="descricao">
+                    <div class="tituloPreco">
+                        <h6>Frango ao forno</h6>
+                        <p>$23.99</p>
+                    </div>
+                    <hr>
+                    <p class="descricaoPrato">Frango miso-mel e os aspargos de Yossy Arefi.</p>
+                </div>
+            </div>
+            <div class="itens" id="lunch2">
+                <img src="bife-fritas.png" alt="" class="prato">
+                <div class="descricao">
+                    <div class="tituloPreco">
+                        <h6>Bife ao molho madeira</h6>
+                        <p>$25.99</p>
+                    </div>
+                    <hr>
+                    <p class="descricaoPrato">Bife ao molho madeira, feijão macassar, arroz,
+                    salada e batata frita.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
